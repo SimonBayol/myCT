@@ -20,3 +20,4 @@
 <div>{{ _html }}</div>
 <h2>Test Element</h2>
 <div>{% element 'test_element.twig' %}</div>
+<div>{% element 'test_element_with_vars.twig' with {'testing_string': testing_string} %}</div>

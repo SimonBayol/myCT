@@ -32,6 +32,7 @@ Liste
 </ul>";
 
         $this->set('sub_title', 'welcome in cake Twig');
+        $this->set('testing_string', 'I am the content of a testing var');
         $this->set('_html', $_html);
         $this->set('data', $data);
 	}
